@@ -15,7 +15,7 @@ function Footer() {
             <h2 className="text-black dark:text-white text-center font-bold text-lg pb-4">Quick links</h2>
             <Link href="/" className="text-black dark:text-white transition-all hover:text-gray-500">Home</Link>
             <Link href="/courses" className="text-black dark:text-white transition-all hover:text-gray-500">Courses</Link>
-            <Link href="/about" className="text-black dark:text-white transition-all hover:text-gray-500">About</Link>
+            <Link href="/" className="text-black dark:text-white transition-all hover:text-gray-500">About</Link>
             <Link href="/contact" className="text-black dark:text-white transition-all hover:text-gray-500">Contact</Link>
         </div>
         <div className="text-center flex flex-col">
@@ -26,8 +26,8 @@ function Footer() {
         </div>
         <div className="text-center">
             <h2 className="text-black dark:text-white text-center font-bold text-lg pb-4">Contact Us</h2>
-            <p class="mb-2">Email: <Link href="mailto:info@musicwebsite.com" class="text-blue-400">info@musicwebsite.com</Link></p>
-    <p >Phone: <Link href="tel:+1234567890" className="text-blue-400">+1 234 567 890</Link></p>
+            <p class="mb-2">Email: <Link href="mailto:saurabhtambolkar22@gmail.com" class="text-blue-400">info@musicwebsite.com</Link></p>
+    <p >Phone: <Link href="tel:+9763356019" className="text-blue-400">9763356019</Link></p>
     <p >Address: 123 Music Lane, Melody City, Tune State, 12345</p>
         </div>
       </div>
