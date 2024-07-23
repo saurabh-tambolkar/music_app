@@ -31,7 +31,7 @@ function FeaturedCourses() {
                   <p className="text-sm py-2 font-semibold text-white dark:text-neutral-400">
                    Instructor : {course.instructor}
                   </p>
-                  <Link className="text-white dark:text-white" href={`/course/${course.slug}`}>Learn more </Link>
+                  <Link className="text-white dark:text-white" href={`/courses/${course.slug}`}>Learn more </Link>
                   <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
                     <span>Buy now </span>
                     <span className="bg-zinc-700 rounded-full text-[0.8rem] px-2 py-0 text-white">

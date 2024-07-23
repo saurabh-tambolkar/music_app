@@ -3,12 +3,10 @@ import React from 'react'
 import courseData from '@/data/music_courses.json'
 import Image from 'next/image';
 
-function page({params}) {
-  console.log(params.slug)  
+function page({params}) { 
   let url=params.slug;
 
   const course = courseData.courses.filter((course) => course.slug===url);
-  console.log(course)
 
   return (
     <div className='min-h-screen bg-white dark:bg-black  flex justify-center items-center'>

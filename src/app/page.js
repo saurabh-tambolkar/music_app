@@ -14,7 +14,7 @@ export default function Home() {
     <TestimonialCards/>
     <UpcomingWebinars/>
     <Meet/>
-    <Footer/>
+    {/* <Footer/> */}
    </div>
   );
 }

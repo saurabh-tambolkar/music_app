@@ -1,19 +1,13 @@
 'use client'
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Spotlight } from "./ui/Spotlight";
 
 function HeroSection() {
 
-  let color;
-  useEffect(()=>{
-    let theme = localStorage.getItem('theme');
-    color = theme === "light" ? "black" : "white"
-  },[])
-
   return (
     <div className="max-h-full md:h-[45rem] w-full rounded-md flex flex-col justify-center items-center relative overflow-hidden mx-auto py-10 md:py-0">
-      <Spotlight className="top-0 left-10 md:left-60 md:-top-20" fill={color} />
+      <Spotlight className="top-0 left-10 md:left-60 md:-top-20" fill="gray" />
       {/* <Spotlight className="top-0 left-10 md:left-60 md:-top-20" fill="white" /> */}
       <div className="p-8 mt-20 relative z-10 w-full text-center">
         <h1 className="mt-20 md:mt-0 text-4xl md:text-8xl font-bold text-slate-900 dark:text-white">

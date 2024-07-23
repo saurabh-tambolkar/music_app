@@ -26,13 +26,13 @@ function Footer() {
         </div>
         <div className="text-center">
             <h2 className="text-black dark:text-white text-center font-bold text-lg pb-4">Contact Us</h2>
-            <p class="mb-2">Email: <Link href="mailto:saurabhtambolkar22@gmail.com" class="text-blue-400">info@musicwebsite.com</Link></p>
+            <p className="mb-2">Email: <Link href="mailto:saurabhtambolkar22@gmail.com" className="text-blue-400">saurabhtambolkar22@gmail.com</Link></p>
     <p >Phone: <Link href="tel:+9763356019" className="text-blue-400">9763356019</Link></p>
-    <p >Address: 123 Music Lane, Melody City, Tune State, 12345</p>
+    {/* <p >Address: 123 Music Lane, Melody City, Tune State, 12345</p> */}
         </div>
       </div>
       <div className="text-center py-5">
-        <p className="text-neutral-500 text-sm ">© 2024 Music Academy. All rights reserved.</p>
+        <p className="text-neutral-500 bg-white dark:bg-black dark:text-neutral-400 text-sm ">© 2024 Music Academy. All rights reserved.</p>
       </div>
     </div>
     </>
