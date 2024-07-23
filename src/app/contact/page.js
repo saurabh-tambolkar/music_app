@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation';
 
-function page() {
+function Page() {
 
   const [email,setEmail] = useState("");
   const [message,setMessage] = useState("");
@@ -76,4 +76,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
