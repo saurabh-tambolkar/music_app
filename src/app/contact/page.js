@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import { PaperAirplaneIcon } from '@heroicons/react/24/solid'
 
 function page() {
   return (
@@ -15,7 +14,7 @@ function page() {
             <span className='text-xl font-semibold text-white dark:text-black'>
                 Send
             </span>
-                <PaperAirplaneIcon className='size-4 dark:text-black text-white '/>
+                
         </button>
       </div>
     </div>

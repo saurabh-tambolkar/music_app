@@ -13,10 +13,15 @@ function Navbar({className}) {
     // const [activeTheme,setActiveTheme] = useState(window.localStorage.getItem("theme"))
     const [activeTheme,setActiveTheme] = useState()
     
-    useEffect(()=>{
-      setActiveTheme(window.localStorage.getItem("theme"))
-      document.documentElement.classList.add(activeTheme);
-    },[])
+    useEffect(() => {
+      if (typeof window !== 'undefined') {
+          const theme = window.localStorage.getItem("theme");
+          setActiveTheme(theme);
+          if (theme) {
+              document.documentElement.classList.add(theme);
+          }
+      }
+  }, []);
 
     let handleChangeTheme=()=>{
       if(activeTheme === "dark"){
